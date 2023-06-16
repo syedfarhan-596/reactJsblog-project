@@ -1,0 +1,27 @@
+.jobNewsWrapper{
+    background-color: lightslategray;
+    width: 100%;
+}
+.jobCard{
+    padding: 1%;
+    margin: 2%;
+    width: 90%;
+    height: 180px;
+    background-color: bisque;
+    border: 2px solid black;
+}
+.jobImg{
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding: 1%;
+}
+.applyBtn{
+    background-color: rgb(91, 91, 255);
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+}
+.applyBtn:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,46 @@
+.newsWrapper{
+    background-color: silver;
+    position: relative;
+    top: 0px;
+    width: 100%;
+}
+.title{
+    text-align: center;
+}
+.newsCards{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 2%;
+    width: 90%;
+    height: 300px;
+    border: 2px solid black;
+}
+.normalNews{
+    padding: 1%;
+    float: left;
+    width: 150px;
+    height: 100px;
+}
+.normalNews1{
+    float: right;
+    width: 150px;
+    height: 100px;
+}
+.flexNews{
+    display: flex;
+}
+.newsCardsDiff{
+    width: 28%;
+    border: 2px solid black;
+    height: 180px;
+    padding: 1%;
+    margin: 1%;
+}
+.flexItemImg{
+    float: left;
+    padding-right:2%;
+    width: 100px;
+}
+a:hover{
+    color: red;
+}

@@ -1,0 +1,39 @@
+.footerWrapper{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+}
+.usefulLinks{
+    display: block;
+}
+.subscribeArea{
+    border: 2px solid black;
+    background-color: rgb(46, 36, 46);
+    margin: 2%;
+    padding: 2%;
+    border-radius: 10px;
+    display: block;
+    text-align: center;
+}
+.subscribeArea > input {
+    border: none;
+    outline: none;
+    font-size: 18px;
+    height: 40px;
+    width: 400px;
+    border-radius: 10px; 
+} 
+.subscribeArea > button{
+    margin-top: 2%;
+    background-color: black;
+    color: purple;
+    font-size: 18px;
+    border-radius: 8px;
+}
+.logos{
+    display: block;
+    width: 40px;
+    height: 30px;
+    margin: 50%;
+}

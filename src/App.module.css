@@ -1,0 +1,7 @@
+.wrapper{
+    background-image: radial-gradient(aqua,lightcoral)
+}
+.newsJobWrapper{
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+}

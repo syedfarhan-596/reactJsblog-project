@@ -1,0 +1,55 @@
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    height: 250vh;
+}
+.coverImg{
+    margin-left: 2%;
+    width: 95%;
+    height: 70vh;
+}
+.blogCard{
+    background-image: url('./background2.jpg');
+    border-radius: 3%;
+    width: 100%;
+    max-width: 350px;
+    height: 250px;
+    margin: 2%;
+    padding: 1%;
+    border: 2px solid black;
+}
+.blogCard:hover{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    animation-name: zoom;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+.cardImg{
+    padding: 2%;
+    width: 150px;
+    float: left;
+}
+.blogCard:nth-child(even){
+    background-image: url('./background6.jpg');
+    align-self: center;
+}
+.blogCard:nth-child(odd){
+    align-self: self-start;
+}
+.title > h1{
+    text-decoration: underline;
+    width: 100%;
+    text-align: center;
+    text-shadow: 3px 3px 3px gray;
+}
+@keyframes zoom{
+    0%{
+        transform: scale(1);
+        box-shadow: 0px 2px 5px #ccc;
+    }
+    100%{
+        transform: scale(1.1);
+    }
+}
