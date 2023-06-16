@@ -69,3 +69,6 @@
     border-radius: 10%;
     height: 40px;
 }
+.a:hover{
+    color: red;
+}

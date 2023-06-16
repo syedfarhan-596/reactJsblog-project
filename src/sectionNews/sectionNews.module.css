@@ -41,6 +41,6 @@
     padding-right:2%;
     width: 100px;
 }
-a:hover{
+.a:hover{
     color: red;
 }

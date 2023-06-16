@@ -6,51 +6,49 @@ const HeaderSection = () => {
         <div className={classes.topBar}>
             <div className={classes.wrapImgBtn}>
                 <div>
-                    <a>
                     <img className={classes.myLogo} src={myLogo} alt="logo" />
-                    </a>
                 </div>
                 <div className={classes.dropDownBtn}>
                     <div className={classes.dropDown}>
                         <button className={classes.headerBtn}>BLOGS</button>
                         <div className={classes.dropDownItems}>
-                            <a href='#'>Technology</a>
-                            <a href='#'>Lifestyle</a>
-                            <a href="#">Entertainment</a>
-                            <a href="#">Health and Wellness</a>
-                            <a href='#'>Travel and Adventure</a>
-                            <a href='#'>Food and Cooking</a>
-                            <a href='#'>Fashion and Beauty</a>
+                            <h3 className={classes.a} href='#'>Technology</h3>
+                            <h3 className={classes.a}>Lifestyle</h3>
+                            <h3 className={classes.a}>Entertainment</h3>
+                            <h3 className={classes.a}>Health and Wellness</h3>
+                            <h3 className={classes.a}>Travel and Adventure</h3>
+                            <h3 className={classes.a}>Food and Cooking</h3>
+                            <h3 className={classes.a}>Fashion and Beauty</h3>
                         </div>
                     </div>
                         <div className={classes.dropDown}>
                         <button className={classes.headerBtn}>NEWS</button>
                         <div className={classes.dropDownItems}>
-                            <a href='#'>Technology</a>
-                            <a href='#'>Lifestyle</a>
-                            <a href="#">Entertainment</a>
-                            <a href="#">Health and Wellness</a>
-                            <a href='#'>Travel and Adventure</a>
-                            <a href='#'>Food and Cooking</a>
-                            <a href='#'>Fashion and Beauty</a>
+                            <h3 className={classes.a}>Technology News</h3>
+                            <h3 className={classes.a}>World News</h3>
+                            <h3 className={classes.a}>Entertainment News</h3>
+                            <h3 className={classes.a}>Health News</h3>
+                            <h3 className={classes.a}>Travel News</h3>
+                            <h3 className={classes.a}>Sports News</h3>
+                            <h3 className={classes.a}>Business News</h3>
                         </div>
                     </div>
                         <div className={classes.dropDown}>
                         <button className={classes.headerBtn}>JOBS</button>
                         <div className={classes.dropDownItems}>
-                            <a href='#'>Technology</a>
-                            <a href='#'>Lifestyle</a>
-                            <a href="#">Entertainment</a>
-                            <a href="#">Health and Wellness</a>
-                            <a href='#'>Travel and Adventure</a>
-                            <a href='#'>Food and Cooking</a>
-                            <a href='#'>Fashion and Beauty</a>
+                            <h3 className={classes.a}>Technology Jobs</h3>
+                            <h3 className={classes.a}>Marketing</h3>
+                            <h3 className={classes.a}>Accounting Jobs</h3>
+                            <h3 className={classes.a}>Service Jobs</h3>
+                            <h3 className={classes.a}>Healthcare Jobs</h3>
+                            <h3 className={classes.a}>Education Jobs</h3>
+                            <h3 className={classes.a}>Engineering Jobs</h3>
                         </div>
                     </div>
                 </div>
             </div>
                 <div>
-                    <a><button className={classes.signIn}>Sign In</button></a>
+                    <h3 className={classes.a}><button className={classes.signIn}>Sign In</button></h3>
                 </div>
         </div>
     )

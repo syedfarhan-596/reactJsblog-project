@@ -44,6 +44,9 @@
     text-align: center;
     text-shadow: 3px 3px 3px gray;
 }
+.a:hover{
+    color: red;
+}
 @keyframes zoom{
     0%{
         transform: scale(1);

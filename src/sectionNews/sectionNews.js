@@ -10,9 +10,7 @@ const sectionNews = () => {
     return(
         <div className={classes.newsWrapper}>
             <div className={classes.title}>
-            <a>
-                <h1>Go with the Lastes News</h1>
-            </a>
+                <h1 className={classes.a}>Go with the Lastes News</h1>
             </div>
             <div className={classes.newsCards}>
                 <img className={classes.normalNews} src={movie} alt="KGF" />
@@ -20,9 +18,7 @@ const sectionNews = () => {
                 The screenplay is the most interesting part of the film. The non-linear pattern keeps the viewers engaged, with the growth of Rocky being shown in a steady fashion. While there are a fair share of scenes and dialogues that bring out the hoots and cheers from the masses, the makers have still maintained a clever story telling pattern that assures one to also keep pace with the narrative. The film traverses from 1951 to 2018, while maintaining a sense of curiosity as each character is unveiled.
                 the movie broke all records with collection of 1000cr box-office
                 </p>
-            <a>
-                <h2>Click here to know more</h2>
-            </a>
+                <h2 className={classes.a}>Click here to know more</h2>
             </div>
 
             <div className={classes.flexNews}>
@@ -31,27 +27,21 @@ const sectionNews = () => {
                         <p>This is what happened in telangana on the occation of TELANGANA FORMATION DAY
                         elangana State Government decided to organize the decennial celebrations of Telangana ....
                         </p>
-                <a>
-                        <h2>Click here to know more</h2>
-                </a>
+                        <h2 className={classes.a}>Click here to know more</h2>
                 </div>
                 <div className={classes.newsCardsDiff}>
                     
                         <img src={car} className={classes.flexItemImg} alt="car Accident" />
                         <p>
                             A car was seen precariously hanging from a high wall on Wednesday evening crashed into the railing wall of a multistoried building at Raj Bhavan road in Hyderabad which ...</p>
-                        <a>
-                        <h2>Click here to know more</h2>
-                    </a>
+                        <h2 className={classes.a}>Click here to know more</h2>
 
                 </div>
                 <div className={classes.newsCardsDiff}>
                         <img src={stocks} className={classes.flexItemImg} alt="car Accident" />
                         <p>
                             The stock market is been high from several days evening crashed into the railing which is a positive for the new traders to join the stock market for options trading or day trading ...</p>
-                    <a>
-                        <h2>Click here to know more</h2>
-                    </a>
+                        <h2 className={classes.a}>Click here to know more</h2>
 
                 </div>
             </div>
@@ -62,9 +52,7 @@ const sectionNews = () => {
                     <p> Hardik Pandya commanded the Gujarat Titans, having successfully led the team to its maiden IPL title in 2022. Living-legend MS Dhoni again helmed the captaincy of Chennai Super Kings and managed to secure the final spot a record 10th time. He has played an overall 11 finals in the Indian Premier League.</p>
                      <p>The much-anticipated match faced a major setback on the designated date, May 28, 2023, when rain forced a delay to the reserved day: May 29. however, the subsequent day wasn’t any better either with rain pouring during the evening. Thankfully, the skies cleared at night and the match began without any delays.
                      </p>
-                <a>
-                     <h2>Click here to know more</h2>
-                </a>
+                     <h2 className={classes.a}>Click here to know more</h2>
             </div>
             
         </div>
